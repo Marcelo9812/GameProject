@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.FirstElementQuestion">
+   <children>
+      <ImageView fitHeight="271.0" fitWidth="449.0" layoutX="76.0" layoutY="89.0">
+         <image>
+            <Image url="@../../../../../../../Desktop/Trabajos%20Colegio/230-2308600_320-184-pixels-periodic-table-blank.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dcdee1" height="136.0" layoutX="180.0" layoutY="12.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Line endX="-35.5" layoutX="337.0" layoutY="65.0" startX="-100.0" />
+      <Label layoutX="190.0" layoutY="14.0" text="Element: Fluorine" textFill="#ffa100">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Text layoutX="187.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Symbol:" wrappingWidth="140.759765625">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="187.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Family:" wrappingWidth="140.759765625">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="187.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N º of Atoms:" wrappingWidth="140.759765625">
+         <font>
+            <Font name="Impact" size="14.0" />
+         </font>
+      </Text>
+      <Line endX="-50.5" layoutX="359.0" layoutY="130.0" startX="-100.0" />
+      <Line endX="-35.5" layoutX="337.0" layoutY="97.0" startX="-100.0" />
+      <TextField layoutX="234.0" layoutY="36.0" prefHeight="26.0" prefWidth="72.0" promptText="Enter Response" />
+      <TextField layoutX="258.0" layoutY="101.0" prefHeight="26.0" prefWidth="51.0" promptText="Enter Response" />
+      <TextField layoutX="234.0" layoutY="68.0" prefHeight="26.0" prefWidth="72.0" promptText="Enter Response" />
+   </children>
+</AnchorPane>
