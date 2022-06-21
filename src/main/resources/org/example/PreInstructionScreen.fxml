@@ -7,23 +7,23 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PreInstructionScreenController">
+   <children />
       <ImageView fitHeight="319.0" fitWidth="524.0" layoutX="38.0" layoutY="41.0" opacity="0.1">
          <image>
-            <Image url="@../../../../../../../Desktop/Trabajos%20Colegio/periodic-table-header-v2-min%20(1).png" />
+            <Image url="https://www.philipharris.co.uk/media/1924/periodic-table-header-v2-min.png?anchor=center&amp;mode=crop&amp;width=1110&amp;rnd=131931602780000000&amp;quality=75" />
          </image>
       </ImageView>
-      <Button fx:id="logoutButton" layoutX="14.0" layoutY="16.0" onAction="#switchtoLoginScreen" text="Log Out" />
-      <Button fx:id="cContinueButton" defaultButton="true" layoutX="180.0" layoutY="136.0" mnemonicParsing="false" prefHeight="128.0" prefWidth="241.0" text="PRESS TO CONTINUE" textAlignment="CENTER" textFill="#5b0000">
+      <Button layoutX="14.0" layoutY="16.0" onAction="#switchToLoginScreen" text="Log Out" />
+      <Button defaultButton="true" layoutX="180.0" layoutY="136.0" mnemonicParsing="false" onAction="#switchToInstructions" prefHeight="128.0" prefWidth="241.0" text="PRESS TO CONTINUE" textAlignment="CENTER" textFill="#5b0000">
          <font>
             <Font name="Monospaced Bold" size="19.0" />
-         </font>
+         </font>>
       </Button>
       <Text fx:id="wWelcomeText" layoutX="114.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Periodic Table Game!">
          <font>
             <Font name="Courier New" size="20.0" />
          </font>
       </Text>
-   </children>
+   <children />
 </AnchorPane>

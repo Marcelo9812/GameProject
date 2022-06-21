@@ -6,15 +6,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PreGameScreen">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PreGameScreenController">
    <children>
       <ImageView fitHeight="319.0" fitWidth="524.0" layoutX="38.0" layoutY="51.0">
          <image>
-            <Image url="@../../../../../../../Desktop/Trabajos%20Colegio/periodic-table-header-v2-min%20(1).png" />
+            <Image url="https://www.philipharris.co.uk/media/1924/periodic-table-header-v2-min.png?anchor=center&amp;mode=crop&amp;width=1110&amp;rnd=131931602780000000&amp;quality=75" />
          </image>
       </ImageView>
-      <Button defaultButton="true" layoutX="180.0" layoutY="44.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="166.0" text="START">
+      <Button defaultButton="true" layoutX="180.0" layoutY="44.0" mnemonicParsing="false" onAction="#switchToFirstElementQuestion" prefHeight="77.0" prefWidth="166.0" text="START">
          <font>
             <Font size="24.0" />
          </font>

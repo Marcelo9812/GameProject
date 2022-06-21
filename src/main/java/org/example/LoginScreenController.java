@@ -9,6 +9,6 @@ public class LoginScreenController {
 
     @FXML
     public void switchToPreInstructionScreen(ActionEvent actionEvent) throws IOException {
-        App.setRoot("PreInstrucionScreen");
+        App.setRoot("PreInstructionScreen");
     }
 }
